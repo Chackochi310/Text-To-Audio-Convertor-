@@ -78,3 +78,13 @@ select {
   text-decoration: underline;
 }
 .
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container-hero {
+    width: 90%;
+  }
+}
